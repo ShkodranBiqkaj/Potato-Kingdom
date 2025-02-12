@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0; 
+    background-image: url('assignment_assets/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+#bigtable {
+    border: 1px solid;
+    height: 500px; 
+    width: 500px; 
+    color: black; 
+    background-color: white; 
+    border-color: white; 
+    border-collapse: separate; 
+    border-spacing: 5px;
+    border-radius: 10px; 
+    float: left; 
+    top: 150px; 
+    position: absolute; 
+    left: 20px; 
+}
+
+#bigtable td{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: hsl(47, 65%, 82%);
+}
+
+#smalltable{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-Color: white;
+    border-Color: white;  
+    border-Spacing: 10px;       
+    border-Radius: 10px;
+    position: absolute;
+    left: 700px;
+    top: 520px;
+}
+
+#smalltable td{
+    width: 30px;
+    height: 30px;
+    border-Radius: 2px;
+    background-Color:white;
+    border: 2px solid white;
+}
+
+#rotate {
+    position: absolute;
+    left: 600px;
+    top: 530px;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-Radius: 6px;
+}
+
+#mirror {
+    position: absolute;
+    left: 600px;
+    top: 620px;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-Radius: 6px;
+}
+
+#time {
+    height: 100px;
+    position: absolute;
+    top: 555px;
+    left: 600px;
+}
+
+#spring {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 560px;
+    background-color: greenyellow;
+    border-color: green;
+}
+
+
+#summer {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    background-color: yellow;
+    border-color: yellow;
+}
+
+#autumn {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 780px;
+    background-color: peachpuff;
+    border-color: brown;
+}
+
+#winter {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 890px;
+    background-color: lightblue;
+    border-color: blue;
+}
+
+#missions2{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 820px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#missions3{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 350px;
+    left: 540px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#missions1{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 540px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#missions4{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 350px;
+    left: 820px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#elapsed{
+    top: 500px;
+    left: 620px;
+    position: absolute;
+    font-weight: bold;
+}
+
+#season{
+    top: 170px;
+    left: 620px;
+    position: absolute;
+    font-weight: bold;
+}
+#num1{
+    top: 290px;
+    left: 620px;
+    position: absolute;
+    font-weight: bold;
+}
+
+#num3{
+    top: 435px;
+    left: 620px;
+    position: absolute;
+    font-weight: bold;
+}
+
+#num2{
+    top: 290px;
+    left: 920px;
+    position: absolute;
+    font-weight: bold;
+}
+#num4{
+    top: 435px;
+    left: 920px;
+    position: absolute;
+    font-weight: bold;
+}
+
+#total{
+    position: absolute;
+    top: 140px;
+    left: 730px;
+    font-weight: bold;
+}
